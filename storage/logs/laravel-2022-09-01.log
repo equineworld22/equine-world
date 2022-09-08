@@ -1,0 +1,2943 @@
+[2022-09-01 16:05:41] production.DEBUG: Message-ID: <74097ea54c3f32ae6bfb04bcf30eaa85@booking-core.test>
+Date: Thu, 01 Sep 2022 16:05:41 +0000
+Subject: [My Travel] New booking has been made
+From: My Travel <contact@mytravel.com>
+To: contact@mytravel.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5191fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+            
+    <div class="b-container">
+        <div class="b-panel">
+                                <h3 class="email-headline"><strong>Hello Administrator</strong></h3>
+                    <p>New booking has been made</p>
+                
+            <div class="b-panel-title">Car information</div>
+<div class="b-table-wrap">
+    <table class="b-table" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="label">Booking Number</td>
+            <td class="val">#1</td>
+        </tr>
+        <tr>
+            <td class="label">Booking Status</td>
+            <td class="val">Processing</td>
+        </tr>
+                    <tr>
+                <td class="label">Payment method</td>
+                <td class="val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class="label">Car name</td>
+            <td class="val">
+                <a href="http://booking-core.test/car/vinfast-fadil-standard">Vinfast Fadil Standard</a>
+            </td>
+
+        </tr>
+        <tr>
+                            <td class="label">Address</td>
+                <td class="val">
+                    Arrondissement de Paris
+                </td>
+                    </tr>
+                    <tr>
+                <td class="label">Start date</td>
+                <td class="val">09/02/2022</td>
+            </tr>
+            <tr>
+                <td class="label">End date:</td>
+                <td class="val">
+                    09/03/2022
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Days:</td>
+                <td class="val">
+                    2
+                </td>
+            </tr>
+        
+                        <tr>
+            <td class="label">Pricing</td>
+            <td class="val">
+                <table class="pricing-list" width="100%">
+                    <tr>
+                        <td class="label">$400 *
+                                                            2 days
+                                                        :</td>
+                        <td class="val no-r-padding">
+                            <strong>$800</strong>
+                        </td>
+                    </tr>
+                    
+                    
+                                                                                                                        <tr>
+                                <td class="label">
+                                    Equipment fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="One-time fee charged by host to cover the cost of cleaning their space."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $100
+                                                                    </td>
+                            </tr>
+                                                                                <tr>
+                                <td class="label">
+                                    Facility fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="This helps us run our platform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $200
+                                                                    </td>
+                            </tr>
+                                                                                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Total</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$1.100</strong></td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Paid</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$0</strong></td>
+        </tr>
+                <tr>
+            <td class="label fsz21">Remain</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$1.100</strong></td>
+        </tr>
+            </table>
+</div>
+<div class="text-center mt20">
+    <a href="http://booking-core.test/user/booking-history" target="_blank" class="btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class="b-panel">
+    <div class="b-panel-title">Customer information</div>
+    <div class="b-table-wrap">
+        <div class="b-table b-table-div">
+            <div class="info-first-name b-tr">
+                <div class="label">First name</div>
+                <div class="val">Customer</div>
+            </div>
+            <div class="info-last-name b-tr" style="clear: both">
+                <div class="label">Last name</div>
+                <div class="val">01</div>
+            </div>
+            <div class="info-email b-tr">
+                <div class="label">Email</div>
+                <div class="val">customer1@mytravel.test</div>
+            </div>
+            <div class="info-phone b-tr">
+                <div class="label">Phone</div>
+                <div class="val">112 666 888</div>
+            </div>
+            <div class="info-address b-tr">
+                <div class="label">Address line 1</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-address2 b-tr">
+                <div class="label">Address line 2</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-city b-tr">
+                <div class="label">City</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-state b-tr">
+                <div class="label">State/Province/Region</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-zip-code b-tr">
+                <div class="label">ZIP code/Postal code</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-country b-tr">
+                <div class="label">Country</div>
+                <div class="val">Malaysia</div>
+            </div>
+            <div class="info-notes b-tr">
+                <div class="label">Special Requirements</div>
+                <div class="val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-09-01 16:05:41] production.DEBUG: Message-ID: <831c0e6a7f3cef2c9e4f9192abd91677@booking-core.test>
+Date: Thu, 01 Sep 2022 16:05:41 +0000
+Subject: [My Travel] Your service got new booking
+From: My Travel <contact@mytravel.com>
+To: Vendor 01 <vendor1@mytravel.test>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5191fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+            
+    <div class="b-container">
+        <div class="b-panel">
+                                <h3 class="email-headline"><strong>Hello Vendor</strong></h3>
+                    <p>Your service has new booking</p>
+                
+            <div class="b-panel-title">Car information</div>
+<div class="b-table-wrap">
+    <table class="b-table" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="label">Booking Number</td>
+            <td class="val">#1</td>
+        </tr>
+        <tr>
+            <td class="label">Booking Status</td>
+            <td class="val">Processing</td>
+        </tr>
+                    <tr>
+                <td class="label">Payment method</td>
+                <td class="val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class="label">Car name</td>
+            <td class="val">
+                <a href="http://booking-core.test/car/vinfast-fadil-standard">Vinfast Fadil Standard</a>
+            </td>
+
+        </tr>
+        <tr>
+                            <td class="label">Address</td>
+                <td class="val">
+                    Arrondissement de Paris
+                </td>
+                    </tr>
+                    <tr>
+                <td class="label">Start date</td>
+                <td class="val">09/02/2022</td>
+            </tr>
+            <tr>
+                <td class="label">End date:</td>
+                <td class="val">
+                    09/03/2022
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Days:</td>
+                <td class="val">
+                    2
+                </td>
+            </tr>
+        
+                        <tr>
+            <td class="label">Pricing</td>
+            <td class="val">
+                <table class="pricing-list" width="100%">
+                    <tr>
+                        <td class="label">$400 *
+                                                            2 days
+                                                        :</td>
+                        <td class="val no-r-padding">
+                            <strong>$800</strong>
+                        </td>
+                    </tr>
+                    
+                    
+                                                                                                                        <tr>
+                                <td class="label">
+                                    Equipment fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="One-time fee charged by host to cover the cost of cleaning their space."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $100
+                                                                    </td>
+                            </tr>
+                                                                                <tr>
+                                <td class="label">
+                                    Facility fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="This helps us run our platform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $200
+                                                                    </td>
+                            </tr>
+                                                                                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Total</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$1.100</strong></td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Paid</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$0</strong></td>
+        </tr>
+                <tr>
+            <td class="label fsz21">Remain</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$1.100</strong></td>
+        </tr>
+            </table>
+</div>
+<div class="text-center mt20">
+    <a href="http://booking-core.test/user/booking-history" target="_blank" class="btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class="b-panel">
+    <div class="b-panel-title">Customer information</div>
+    <div class="b-table-wrap">
+        <div class="b-table b-table-div">
+            <div class="info-first-name b-tr">
+                <div class="label">First name</div>
+                <div class="val">Customer</div>
+            </div>
+            <div class="info-last-name b-tr" style="clear: both">
+                <div class="label">Last name</div>
+                <div class="val">01</div>
+            </div>
+            <div class="info-email b-tr">
+                <div class="label">Email</div>
+                <div class="val">customer1@mytravel.test</div>
+            </div>
+            <div class="info-phone b-tr">
+                <div class="label">Phone</div>
+                <div class="val">112 666 888</div>
+            </div>
+            <div class="info-address b-tr">
+                <div class="label">Address line 1</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-address2 b-tr">
+                <div class="label">Address line 2</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-city b-tr">
+                <div class="label">City</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-state b-tr">
+                <div class="label">State/Province/Region</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-zip-code b-tr">
+                <div class="label">ZIP code/Postal code</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-country b-tr">
+                <div class="label">Country</div>
+                <div class="val">Malaysia</div>
+            </div>
+            <div class="info-notes b-tr">
+                <div class="label">Special Requirements</div>
+                <div class="val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-09-01 16:05:41] production.DEBUG: Message-ID: <a32feb8e9e71a1107cdef74682e3f4b6@booking-core.test>
+Date: Thu, 01 Sep 2022 16:05:41 +0000
+Subject: Thank you for booking with us
+From: My Travel <contact@mytravel.com>
+To: customer1@mytravel.test
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5191fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+            
+    <div class="b-container">
+        <div class="b-panel">
+                                <h3 class="email-headline"><strong>Hello Customer</strong></h3>
+                    <p>Thank you for booking with us. Here are your booking information:</p>
+                
+            <div class="b-panel-title">Car information</div>
+<div class="b-table-wrap">
+    <table class="b-table" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="label">Booking Number</td>
+            <td class="val">#1</td>
+        </tr>
+        <tr>
+            <td class="label">Booking Status</td>
+            <td class="val">Processing</td>
+        </tr>
+                    <tr>
+                <td class="label">Payment method</td>
+                <td class="val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class="label">Car name</td>
+            <td class="val">
+                <a href="http://booking-core.test/car/vinfast-fadil-standard">Vinfast Fadil Standard</a>
+            </td>
+
+        </tr>
+        <tr>
+                            <td class="label">Address</td>
+                <td class="val">
+                    Arrondissement de Paris
+                </td>
+                    </tr>
+                    <tr>
+                <td class="label">Start date</td>
+                <td class="val">09/02/2022</td>
+            </tr>
+            <tr>
+                <td class="label">End date:</td>
+                <td class="val">
+                    09/03/2022
+                </td>
+            </tr>
+            <tr>
+                <td class="label">Days:</td>
+                <td class="val">
+                    2
+                </td>
+            </tr>
+        
+                        <tr>
+            <td class="label">Pricing</td>
+            <td class="val">
+                <table class="pricing-list" width="100%">
+                    <tr>
+                        <td class="label">$400 *
+                                                            2 days
+                                                        :</td>
+                        <td class="val no-r-padding">
+                            <strong>$800</strong>
+                        </td>
+                    </tr>
+                    
+                    
+                                                                                                                        <tr>
+                                <td class="label">
+                                    Equipment fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="One-time fee charged by host to cover the cost of cleaning their space."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $100
+                                                                    </td>
+                            </tr>
+                                                                                <tr>
+                                <td class="label">
+                                    Facility fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="This helps us run our platform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $200
+                                                                    </td>
+                            </tr>
+                                                                                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Total</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$1.100</strong></td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Paid</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$0</strong></td>
+        </tr>
+                <tr>
+            <td class="label fsz21">Remain</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$1.100</strong></td>
+        </tr>
+            </table>
+</div>
+<div class="text-center mt20">
+    <a href="http://booking-core.test/user/booking-history" target="_blank" class="btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class="b-panel">
+    <div class="b-panel-title">Customer information</div>
+    <div class="b-table-wrap">
+        <div class="b-table b-table-div">
+            <div class="info-first-name b-tr">
+                <div class="label">First name</div>
+                <div class="val">Customer</div>
+            </div>
+            <div class="info-last-name b-tr" style="clear: both">
+                <div class="label">Last name</div>
+                <div class="val">01</div>
+            </div>
+            <div class="info-email b-tr">
+                <div class="label">Email</div>
+                <div class="val">customer1@mytravel.test</div>
+            </div>
+            <div class="info-phone b-tr">
+                <div class="label">Phone</div>
+                <div class="val">112 666 888</div>
+            </div>
+            <div class="info-address b-tr">
+                <div class="label">Address line 1</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-address2 b-tr">
+                <div class="label">Address line 2</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-city b-tr">
+                <div class="label">City</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-state b-tr">
+                <div class="label">State/Province/Region</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-zip-code b-tr">
+                <div class="label">ZIP code/Postal code</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-country b-tr">
+                <div class="label">Country</div>
+                <div class="val">Malaysia</div>
+            </div>
+            <div class="info-notes b-tr">
+                <div class="label">Special Requirements</div>
+                <div class="val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-09-01 16:05:41] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Customer 01 has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/booking-core.test\/admin\/module\/report\/booking",
+    "idNotification": "8fb0a12f-4f7e-4924-aacc-17c1c37749b4",
+    "socket": null
+}  
+[2022-09-01 16:05:41] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Customer 01 has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/booking-core.test\/vendor\/booking-report",
+    "idNotification": "e9ea5706-4b9e-4446-a440-a7240b8281ad",
+    "userId": 2,
+    "socket": null
+}  
+[2022-09-01 16:12:58] production.DEBUG: Message-ID: <60639ee8b78375b1c4f48ebe47d4fedb@booking-core.test>
+Date: Thu, 01 Sep 2022 16:12:57 +0000
+Subject: [My Travel] New booking has been made
+From: My Travel <contact@mytravel.com>
+To: contact@mytravel.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5191fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+            
+    <div class="b-container">
+        <div class="b-panel">
+                                <h3 class="email-headline"><strong>Hello Administrator</strong></h3>
+                    <p>New booking has been made</p>
+                
+            <div class="b-panel-title">Space information</div>
+<div class="b-table-wrap">
+    <table class="b-table" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="label">Booking Number</td>
+            <td class="val">#2</td>
+        </tr>
+        <tr>
+            <td class="label">Booking Status</td>
+            <td class="val">Processing</td>
+        </tr>
+                    <tr>
+                <td class="label">Payment method</td>
+                <td class="val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class="label">Space name</td>
+            <td class="val">
+                <a href="http://booking-core.test/space/stay-greenwich-village">STAY GREENWICH VILLAGE</a>
+            </td>
+
+        </tr>
+        <tr>
+                            <td class="label">Address</td>
+                <td class="val">
+                    Porte de Vanves
+                </td>
+                    </tr>
+                    <tr>
+                <td class="label">Start date</td>
+                <td class="val">09/02/2022</td>
+            </tr>
+            <tr>
+                <td class="label">End date:</td>
+                <td class="val">
+                    09/03/2022
+                </td>
+            </tr>
+                            <tr>
+                    <td class="label">Days:</td>
+                    <td class="val">
+                        2
+                    </td>
+                </tr>
+                                
+                    <tr>
+                <td class="label">Adults:</td>
+                <td class="val">
+                    <strong>1</strong>
+                </td>
+            </tr>
+                        <tr>
+            <td class="label">Pricing</td>
+            <td class="val">
+                <table class="pricing-list" width="100%">
+                    <tr>
+                        <td class="label">
+                            Rental price
+                        </td>
+                        <td class="val">
+                                                        <strong> $300</strong>
+                        </td>
+                    </tr>
+                    
+                    
+                                                                                                                        <tr>
+                                <td class="label">
+                                    Cleaning fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="One-time fee charged by host to cover the cost of cleaning their space."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $100
+                                                                    </td>
+                            </tr>
+                                                                                <tr>
+                                <td class="label">
+                                    Service fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="This helps us run our platform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $200
+                                                                    </td>
+                            </tr>
+                                                                                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Total</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$600</strong></td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Paid</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$0</strong></td>
+        </tr>
+                    <tr>
+                <td class="label fsz21">Remain</td>
+                <td class="val fsz21"><strong style="color: #FA5636">$600</strong></td>
+            </tr>
+            </table>
+</div>
+<div class="text-center mt20">
+    <a href="http://booking-core.test/user/booking-history" target="_blank" class="btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class="b-panel">
+    <div class="b-panel-title">Customer information</div>
+    <div class="b-table-wrap">
+        <div class="b-table b-table-div">
+            <div class="info-first-name b-tr">
+                <div class="label">First name</div>
+                <div class="val">Customer</div>
+            </div>
+            <div class="info-last-name b-tr" style="clear: both">
+                <div class="label">Last name</div>
+                <div class="val">01</div>
+            </div>
+            <div class="info-email b-tr">
+                <div class="label">Email</div>
+                <div class="val">customer1@mytravel.test</div>
+            </div>
+            <div class="info-phone b-tr">
+                <div class="label">Phone</div>
+                <div class="val">112 666 888</div>
+            </div>
+            <div class="info-address b-tr">
+                <div class="label">Address line 1</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-address2 b-tr">
+                <div class="label">Address line 2</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-city b-tr">
+                <div class="label">City</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-state b-tr">
+                <div class="label">State/Province/Region</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-zip-code b-tr">
+                <div class="label">ZIP code/Postal code</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-country b-tr">
+                <div class="label">Country</div>
+                <div class="val">Malaysia</div>
+            </div>
+            <div class="info-notes b-tr">
+                <div class="label">Special Requirements</div>
+                <div class="val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-09-01 16:12:58] production.DEBUG: Message-ID: <8b2468427e1c47b470aa04780824378f@booking-core.test>
+Date: Thu, 01 Sep 2022 16:12:58 +0000
+Subject: [My Travel] Your service got new booking
+From: My Travel <contact@mytravel.com>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5191fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+            
+    <div class="b-container">
+        <div class="b-panel">
+                                <h3 class="email-headline"><strong>Hello </strong></h3>
+                    <p>Your service has new booking</p>
+                
+            <div class="b-panel-title">Space information</div>
+<div class="b-table-wrap">
+    <table class="b-table" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="label">Booking Number</td>
+            <td class="val">#2</td>
+        </tr>
+        <tr>
+            <td class="label">Booking Status</td>
+            <td class="val">Processing</td>
+        </tr>
+                    <tr>
+                <td class="label">Payment method</td>
+                <td class="val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class="label">Space name</td>
+            <td class="val">
+                <a href="http://booking-core.test/space/stay-greenwich-village">STAY GREENWICH VILLAGE</a>
+            </td>
+
+        </tr>
+        <tr>
+                            <td class="label">Address</td>
+                <td class="val">
+                    Porte de Vanves
+                </td>
+                    </tr>
+                    <tr>
+                <td class="label">Start date</td>
+                <td class="val">09/02/2022</td>
+            </tr>
+            <tr>
+                <td class="label">End date:</td>
+                <td class="val">
+                    09/03/2022
+                </td>
+            </tr>
+                            <tr>
+                    <td class="label">Days:</td>
+                    <td class="val">
+                        2
+                    </td>
+                </tr>
+                                
+                    <tr>
+                <td class="label">Adults:</td>
+                <td class="val">
+                    <strong>1</strong>
+                </td>
+            </tr>
+                        <tr>
+            <td class="label">Pricing</td>
+            <td class="val">
+                <table class="pricing-list" width="100%">
+                    <tr>
+                        <td class="label">
+                            Rental price
+                        </td>
+                        <td class="val">
+                                                        <strong> $300</strong>
+                        </td>
+                    </tr>
+                    
+                    
+                                                                                                                        <tr>
+                                <td class="label">
+                                    Cleaning fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="One-time fee charged by host to cover the cost of cleaning their space."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $100
+                                                                    </td>
+                            </tr>
+                                                                                <tr>
+                                <td class="label">
+                                    Service fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="This helps us run our platform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $200
+                                                                    </td>
+                            </tr>
+                                                                                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Total</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$600</strong></td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Paid</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$0</strong></td>
+        </tr>
+                    <tr>
+                <td class="label fsz21">Remain</td>
+                <td class="val fsz21"><strong style="color: #FA5636">$600</strong></td>
+            </tr>
+            </table>
+</div>
+<div class="text-center mt20">
+    <a href="http://booking-core.test/user/booking-history" target="_blank" class="btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class="b-panel">
+    <div class="b-panel-title">Customer information</div>
+    <div class="b-table-wrap">
+        <div class="b-table b-table-div">
+            <div class="info-first-name b-tr">
+                <div class="label">First name</div>
+                <div class="val">Customer</div>
+            </div>
+            <div class="info-last-name b-tr" style="clear: both">
+                <div class="label">Last name</div>
+                <div class="val">01</div>
+            </div>
+            <div class="info-email b-tr">
+                <div class="label">Email</div>
+                <div class="val">customer1@mytravel.test</div>
+            </div>
+            <div class="info-phone b-tr">
+                <div class="label">Phone</div>
+                <div class="val">112 666 888</div>
+            </div>
+            <div class="info-address b-tr">
+                <div class="label">Address line 1</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-address2 b-tr">
+                <div class="label">Address line 2</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-city b-tr">
+                <div class="label">City</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-state b-tr">
+                <div class="label">State/Province/Region</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-zip-code b-tr">
+                <div class="label">ZIP code/Postal code</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-country b-tr">
+                <div class="label">Country</div>
+                <div class="val">Malaysia</div>
+            </div>
+            <div class="info-notes b-tr">
+                <div class="label">Special Requirements</div>
+                <div class="val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-09-01 16:12:58] production.DEBUG: Message-ID: <be3decc7bb52f0a9dfeafbd1e0277b6b@booking-core.test>
+Date: Thu, 01 Sep 2022 16:12:58 +0000
+Subject: Thank you for booking with us
+From: My Travel <contact@mytravel.com>
+To: customer1@mytravel.test
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5191fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center">My Travel</h1>
+        </div>
+    </div>
+</div>
+
+            
+    <div class="b-container">
+        <div class="b-panel">
+                                <h3 class="email-headline"><strong>Hello Customer</strong></h3>
+                    <p>Thank you for booking with us. Here are your booking information:</p>
+                
+            <div class="b-panel-title">Space information</div>
+<div class="b-table-wrap">
+    <table class="b-table" cellspacing="0" cellpadding="0">
+        <tr>
+            <td class="label">Booking Number</td>
+            <td class="val">#2</td>
+        </tr>
+        <tr>
+            <td class="label">Booking Status</td>
+            <td class="val">Processing</td>
+        </tr>
+                    <tr>
+                <td class="label">Payment method</td>
+                <td class="val">Offline Payment</td>
+            </tr>
+                        <tr>
+            <td class="label">Space name</td>
+            <td class="val">
+                <a href="http://booking-core.test/space/stay-greenwich-village">STAY GREENWICH VILLAGE</a>
+            </td>
+
+        </tr>
+        <tr>
+                            <td class="label">Address</td>
+                <td class="val">
+                    Porte de Vanves
+                </td>
+                    </tr>
+                    <tr>
+                <td class="label">Start date</td>
+                <td class="val">09/02/2022</td>
+            </tr>
+            <tr>
+                <td class="label">End date:</td>
+                <td class="val">
+                    09/03/2022
+                </td>
+            </tr>
+                            <tr>
+                    <td class="label">Days:</td>
+                    <td class="val">
+                        2
+                    </td>
+                </tr>
+                                
+                    <tr>
+                <td class="label">Adults:</td>
+                <td class="val">
+                    <strong>1</strong>
+                </td>
+            </tr>
+                        <tr>
+            <td class="label">Pricing</td>
+            <td class="val">
+                <table class="pricing-list" width="100%">
+                    <tr>
+                        <td class="label">
+                            Rental price
+                        </td>
+                        <td class="val">
+                                                        <strong> $300</strong>
+                        </td>
+                    </tr>
+                    
+                    
+                                                                                                                        <tr>
+                                <td class="label">
+                                    Cleaning fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="One-time fee charged by host to cover the cost of cleaning their space."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $100
+                                                                    </td>
+                            </tr>
+                                                                                <tr>
+                                <td class="label">
+                                    Service fee
+                                    <i class="icofont-info-circle" data-toggle="tooltip" data-placement="top" title="This helps us run our platform and offer services like 24/7 support on your trip."></i>
+                                                                    </td>
+                                <td class="val">
+                                                                            $200
+                                                                    </td>
+                            </tr>
+                                                                                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Total</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$600</strong></td>
+        </tr>
+        <tr>
+            <td class="label fsz21">Paid</td>
+            <td class="val fsz21"><strong style="color: #FA5636">$0</strong></td>
+        </tr>
+                    <tr>
+                <td class="label fsz21">Remain</td>
+                <td class="val fsz21"><strong style="color: #FA5636">$600</strong></td>
+            </tr>
+            </table>
+</div>
+<div class="text-center mt20">
+    <a href="http://booking-core.test/user/booking-history" target="_blank" class="btn btn-primary manage-booking-btn">Manage Bookings</a>
+</div>
+        </div>
+        <div class="b-panel">
+    <div class="b-panel-title">Customer information</div>
+    <div class="b-table-wrap">
+        <div class="b-table b-table-div">
+            <div class="info-first-name b-tr">
+                <div class="label">First name</div>
+                <div class="val">Customer</div>
+            </div>
+            <div class="info-last-name b-tr" style="clear: both">
+                <div class="label">Last name</div>
+                <div class="val">01</div>
+            </div>
+            <div class="info-email b-tr">
+                <div class="label">Email</div>
+                <div class="val">customer1@mytravel.test</div>
+            </div>
+            <div class="info-phone b-tr">
+                <div class="label">Phone</div>
+                <div class="val">112 666 888</div>
+            </div>
+            <div class="info-address b-tr">
+                <div class="label">Address line 1</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-address2 b-tr">
+                <div class="label">Address line 2</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-city b-tr">
+                <div class="label">City</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-state b-tr">
+                <div class="label">State/Province/Region</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-zip-code b-tr">
+                <div class="label">ZIP code/Postal code</div>
+                <div class="val"></div>
+            </div>
+            <div class="info-country b-tr">
+                <div class="label">Country</div>
+                <div class="val">Malaysia</div>
+            </div>
+            <div class="info-notes b-tr">
+                <div class="label">Special Requirements</div>
+                <div class="val"></div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center">&copy; 2021 My Travel. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-09-01 16:12:58] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Customer 01 has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/booking-core.test\/admin\/module\/report\/booking",
+    "idNotification": "2c9773aa-c3e6-46fc-a348-ddb3f9733a5b",
+    "socket": null
+}  
+[2022-09-01 16:24:26] production.DEBUG: Message-ID: <937358f22df1def00092da4337adefa4@booking-core.test>
+Date: Thu, 01 Sep 2022 16:24:26 +0000
+Subject: Email testing
+From: Testing Booking <bookingcore2022@gmail.com>
+To: dorsplc@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5191fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center;">Testing Booking</h1>
+        </div>
+    </div>
+</div>
+
+                <div class="b-container">
+        <div class="b-panel">
+            <h3>Hello!</h3>
+            <p>This is email test.</p>
+        </div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center;">&copy; 2022 Testing Booking. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-09-01 16:26:42] production.DEBUG: Message-ID: <c1ae7ee009444658d036587fd40d6049@booking-core.test>
+Date: Thu, 01 Sep 2022 16:26:42 +0000
+Subject: Email testing
+From: Testing Booking <bookingcore2022@gmail.com>
+To: dorsplc@gmail.com
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+    <head>
+        <title></title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!--<![endif]-->
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' id='google-font-css-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A400%2C500%2C600' type='text/css' media='all' />
+        <style>
+            .b-email-wrap{
+                background: #ebeef2;
+                padding: 40px 0px;
+                color: #1A2B48;
+                font-size: 14px;
+                font-family: 'Poppins', sans-serif !important;
+                font-weight: normal;
+                line-height: 1.5;
+                overflow-x: hidden;
+                margin: 0px;
+            }
+            .b-header{
+                background: #5191fa;
+                padding: 30px;
+                color: white;
+            }
+            .b-header .site-title,
+            .b-header h1,
+            .b-header h2,
+            .b-header h3,
+            .b-header h4,
+            .b-header h5,
+            .b-header p
+            {
+                margin:0px;
+                display: block;
+                text-align: center;
+            }
+            .b-container{
+                max-width: 600px;
+                margin: 0px auto;
+            }
+
+            .b-panel{
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                margin-bottom: 30px;
+                padding: 30px;
+                background: white;
+            }
+            .b-panel .b-panel{
+                padding: 0px;
+                box-shadow: none;
+            }
+            .b-panel-title{
+                text-align: center;
+                margin-bottom: 30px;
+                font-size: 24px;
+                font-weight: 500;
+            }
+            .b-table-wrap{
+                overflow-x:auto;
+            }
+            .b-table{
+                width: 100%;
+            }
+            .b-table tr td,
+            .b-table .b-tr,
+            .b-table tr th{
+                padding: 10px;
+            }
+            .b-table .b-tr{
+                clear: both;
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table .b-tr:after{
+                display: table;
+                clear: both;
+                content:'';
+            }
+            .b-table tr td{
+                border-bottom: 1px solid #EAEEF3;
+            }
+            .b-table tbody tr:nth-child(even) td{
+                /*background: #f5f7fd;*/
+            }
+            .b-table tbody tr td.label,
+            .b-table .b-tr .label{
+                font-weight: 500;
+            }
+            .b-table tbody tr td.val,
+            .b-table .b-tr .val{
+                text-align: right;
+            }
+
+            .b-table tbody tr td.val p,
+            .b-table .b-tr .val p{
+                padding: 0;
+                margin: 0;
+            }
+
+            .b-table .b-tr .label,
+            .b-table .b-tr .val{
+                float: left;
+                width: 50%;
+            }
+            .pricing-list{
+                text-align: left;
+                margin: 0px;
+                padding: 0px;
+                list-style: none;
+            }
+            .pricing-list td{
+                padding: 7px 0px;
+            }
+            .pricing-list td .val{
+                text-align: right;
+            }
+            .pricing-list .no-flex{
+                display: block;
+            }
+            .email-headline{
+                margin-top: 0px;
+            }
+
+            .text-center{
+                text-align: center;
+            }
+
+            .btn{
+                display: inline-block;
+                color: #212529;
+                text-align: center;
+                vertical-align: middle;
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                background-color: #ebeef2;
+                line-height: 1.5;
+                border: none;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                border-radius: 3px;
+                padding: 7px 20px;
+                -webkit-transition: background .2s, color .2s;
+                transition: background .2s, color .2s;
+                font-size: 14px;
+                font-weight: 500;
+                text-decoration: none;
+            }
+            .btn.btn-primary{
+
+                background: #5191FA;
+                color: white;
+            }
+            .mt20{
+                margin-top: 20px;
+            }
+            .no-padding{
+                padding: 0px;
+            }
+            .no-r-padding{
+                padding-right: 0px!important;
+            }
+            .fsz21{
+                font-size: 21px;
+            }
+            .no-b-border{
+                border-bottom: 0px!important;
+            }
+            @media  screen and (max-width: 768px) {
+                .b-panel{
+                    padding: 15px;
+                }
+                .b-table tr td,
+                .b-table tr th{
+                    padding-right: 2px;
+                    padding-left: 2px;
+                }
+                .b-panel-title{
+                    font-size: 18px;
+                    font-weight: bold;
+                    margin-bottom: 15px;
+                }
+                .b-email-wrap{
+                    padding: 0px;
+                }
+
+                .b-table .b-tr .label,
+                .b-table .b-tr .val{
+                    float:none;
+                }
+
+                .b-table .b-tr .val{
+                    text-align: left;
+                }
+            }
+                    </style>
+    </head>
+    <body>
+        <div class="b-email-wrap">
+            <div class="" style="">
+    <div class="b-container">
+        <div class="b-header">
+                        <h1 class="site-title" style="text-align: center;">Testing Booking</h1>
+        </div>
+    </div>
+</div>
+
+                <div class="b-container">
+        <div class="b-panel">
+            <h3>Hello!</h3>
+            <p>This is email test.</p>
+        </div>
+    </div>
+
+            <div class="b-footer" style="margin-top: 0px;">
+    <div class="b-container">
+        <p class="" style="text-align: center;">&copy; 2022 Testing Booking. All rights reserved</p>
+    </div>
+</div>        </div>
+    </body>
+</html>
+  
+[2022-09-01 17:18:31] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Customer 01 has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/booking-core.test\/admin\/module\/report\/booking",
+    "idNotification": "14862fdd-1fdc-4fe3-a0f0-acc977d3e18a",
+    "socket": null
+}  
+[2022-09-01 17:18:31] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Customer 01 has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/booking-core.test\/vendor\/booking-report",
+    "idNotification": "577fe5fa-1a6b-47cf-bf55-31537e10cc16",
+    "userId": 2,
+    "socket": null
+}  
+[2022-09-01 17:33:50] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Customer 01 has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/booking-core.test\/admin\/module\/report\/booking",
+    "idNotification": "a590bd4f-8f7e-4a06-b378-276c7eab70c3",
+    "socket": null
+}  
+[2022-09-01 17:33:50] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Customer 01 has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/booking-core.test\/vendor\/booking-report",
+    "idNotification": "d2ba2118-c0fe-4b94-a692-11b98c33fb1c",
+    "userId": 2,
+    "socket": null
+}  
+[2022-09-01 17:39:12] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "System Admin has created boat Boat 1",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/booking-core.test\/admin\/module\/boat\/edit\/1",
+    "idNotification": "f88092b3-fe1d-4fdf-95e1-7a4ec4f5516a",
+    "socket": null
+}  
+[2022-09-01 17:45:15] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Customer 01 has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/booking-core.test\/admin\/module\/report\/booking",
+    "idNotification": "14ad5910-6b0f-4b9e-941a-d8ad72f0216d",
+    "socket": null
+}  
+[2022-09-01 17:45:15] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Customer 01 has created new Booking",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/booking-core.test\/vendor\/booking-report",
+    "idNotification": "528da551-1ec4-474e-98bb-f3d804aec2d6",
+    "userId": 2,
+    "socket": null
+}  
+[2022-09-01 17:47:21] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Vendor 01 has updated the PAID amount on Boat 1",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/booking-core.test\/admin\/module\/report\/booking",
+    "idNotification": "e9d567ce-1d87-4ea7-a69f-b07c98794ff6",
+    "socket": null
+}  
+[2022-09-01 17:47:21] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Administrator has updated the PAID amount on Boat 1",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/booking-core.test\/vendor\/booking-report",
+    "idNotification": "9a0867a0-e938-4f2a-91cc-ada9a6084832",
+    "userId": 2,
+    "socket": null
+}  
+[2022-09-01 17:47:21] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-3] with payload:
+{
+    "message": "Administrator has updated the PAID amount on Boat 1",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/booking-core.test\/user\/booking-history",
+    "idNotification": "26e98ce9-6995-4f37-822a-e2ceeebcdf0a",
+    "userId": 3,
+    "socket": null
+}  
+[2022-09-01 17:48:54] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Vendor 01 has updated the PAID amount on Boat 1",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/booking-core.test\/admin\/module\/report\/booking",
+    "idNotification": "1ab45381-f3c3-4ebc-9813-d78f1f4da685",
+    "socket": null
+}  
+[2022-09-01 17:48:54] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Administrator has updated the PAID amount on Boat 1",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/booking-core.test\/vendor\/booking-report",
+    "idNotification": "e5e3d7c2-78b8-4bcb-9891-f9e6058133f5",
+    "userId": 2,
+    "socket": null
+}  
+[2022-09-01 17:48:54] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-3] with payload:
+{
+    "message": "Administrator has updated the PAID amount on Boat 1",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/booking-core.test\/user\/booking-history",
+    "idNotification": "9d3e6beb-42f6-4a00-9fc6-eca50c84e848",
+    "userId": 3,
+    "socket": null
+}  
+[2022-09-01 17:51:33] production.INFO: Broadcasting [App\Events\PusherNotificationAdminEvent] on channels [admin-channel] with payload:
+{
+    "message": "Vendor 01 has updated the PAID amount on KLIA - Sabah",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"System Admin\">",
+    "link": "http:\/\/booking-core.test\/admin\/module\/report\/booking",
+    "idNotification": "49ba75be-d5f1-46d9-9de9-6d0db841f58c",
+    "socket": null
+}  
+[2022-09-01 17:51:33] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-2] with payload:
+{
+    "message": "Administrator has updated the PAID amount on KLIA - Sabah",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Vendor 01\">",
+    "link": "http:\/\/booking-core.test\/vendor\/booking-report",
+    "idNotification": "0165c5ac-b2f5-4c66-b457-b209d38ab492",
+    "userId": 2,
+    "socket": null
+}  
+[2022-09-01 17:51:33] production.INFO: Broadcasting [App\Events\PusherNotificationPrivateEvent] on channels [user-channel-3] with payload:
+{
+    "message": "Administrator has updated the PAID amount on KLIA - Sabah",
+    "avatar": "<img class=\"image-responsive\" src=\"http:\/\/booking-core.test\/images\/avatar.png\" alt=\"Customer 01\">",
+    "link": "http:\/\/booking-core.test\/user\/booking-history",
+    "idNotification": "f7f29869-77df-49e3-bc06-1c1f0ca47388",
+    "userId": 3,
+    "socket": null
+}  
